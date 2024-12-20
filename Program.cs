@@ -9,12 +9,7 @@ namespace APIProject
     class Program
     {
         static async Task Main(string[] args)
-        {
-
-            //Run PlayWithODS method
-            var playwithodss = new PlayWithODS();
-            playwithodss.ODSData();
-            
+        {   
             //Run RunProgram method
             await RunProgram();
         }
